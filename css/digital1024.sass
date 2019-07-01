@@ -1,0 +1,152 @@
+@media (max-width: 1224px)
+
+	.header_logo
+		justify-content: space-between
+
+	.menu 
+		justify-content: space-between
+	  
+	.section 
+		font-size: 28px
+		line-height: 18px
+	//baner
+		
+	.features 
+		padding-top: 15%
+
+	.duis 
+		font-size: 12px
+		line-height: 20px
+		padding: 3% 0 1.5% 0
+		
+	.menu__link.features__text:hover 
+		border-radius: 18px
+		padding: 12px 20px
+	//process
+	.easy 
+		font-size: 22px
+		font-weight: 200
+		padding-top: 6%
+
+	.du2
+		font-size: 26px
+	
+	.point
+		color: blue
+		font-size: 10px
+		padding-top: 36%
+		
+	.process 
+		height: 660px
+		background-color: #f3f2f2
+	  
+		&-list
+			justify-content: space-between
+			width: 860px
+		&-list__item 
+			width: 280px
+			height: 345px
+		
+		&-list__text 
+			font-size: 16px
+			line-height: 22px
+			text-transform: uppercase
+			padding-top: 22px
+	//service  	  
+	.service 
+		height: 560px
+		
+		
+		&__text-h1 
+			font-size: 22px
+			text-transform: uppercase
+			padding-top: 80px
+			text-align: center
+			
+		&__text-p 
+			color: #333333
+			font-size: 24px
+			padding-bottom: 70px
+			text-align: center
+
+	.text 
+		margin-left: 6%
+	  
+	.carousel 
+		width: 920px
+		justify-content: space-between
+		
+		&-items 
+			justify-content: space-between
+			flex-basis: 860px
+
+	.image_2 
+		width: 202px
+		height: 262px
+
+	.gallery__text 
+		font-size: 16px
+		line-height: 42px
+		padding-top: 212px
+	//quantity
+	.quantity 
+		height: 412px
+		background: url("../image/1024/quantity__plan.png") no-repeat center
+
+		&-list 
+			justify-content: space-between
+			
+	@each $img in people, hearth, bascet, rocket 
+		.#{$img}
+			background: url("../image/#{$img}.png") no-repeat
+			background-size: 100% 
+			width: 40px
+			height: 40px
+	
+	.quantity-list h2
+		font-size: 18px
+
+	.quantity-list h2 span
+		font-size: 38px
+  
+	.touch 
+		height: 426px
+
+		&_h1 
+			padding-top: 6%
+			text-align: center
+			color: #333333
+			font-family: "Poppins - Semi Bold"
+			font-size: 30px
+			line-height: 28px
+			margin-bottom: 40px
+			margin-left: -38px
+		&-message 
+			width: 840px
+			height: 210px
+			margin: 0 auto
+			justify-content: space-between
+
+	.email__class
+		flex-direction: column
+		justify-content: space-between
+
+	.block 
+		width: 400px
+		height: 50px
+		padding-left: 19px
+
+	.email__text
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+
+	.placeholder 
+		width: 400px
+		height: 130px
+		padding: 20px 0  0 20px
+
+	.send 
+		width: 400px
+		height: 50px
+

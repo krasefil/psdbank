@@ -1,0 +1,22 @@
+
+
+@font-face { 
+  font-family: 'Nunito'; 
+  src: url("fonts/Nunito-Regular.ttf");
+ }
+ @font-face { 
+  font-family: 'Poppins-L'; 
+  src: url("fonts/Poppins-Light.ttf");
+ }
+ @font-face { 
+  font-family: 'Poppins-R'; 
+  src: url("fonts/Poppins-Regular.ttf");
+ }
+ @font-face { 
+  font-family: 'Poppins-S'; 
+  src: url("fonts/Poppins-SemiBold.ttf");
+ }
+ @font-face { 
+  font-family: 'Raleway'; 
+  src: url("fonts/Raleway-Regular.ttf");
+ }
